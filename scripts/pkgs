@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PREFIX=' '
+
+echo "$PREFIX$(dpkg --get-selections | wc --lines)"

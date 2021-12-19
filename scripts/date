@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PREFIX=' '
+
+echo "$PREFIX $(date '+%d-%m-%y (%a)')"
